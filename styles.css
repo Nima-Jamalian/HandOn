@@ -88,39 +88,6 @@ hr {
   width: 50%;
 }
 
-.card-group {
-  width: 50%;
-  margin: auto;
-  padding: 3% 0;
-  text-align: center;
-}
-
-.card-title{
-  color: #66bfbf;
-}
-
-.card {
-  margin: 0 1%;
-  border: none;
-}
-.card-header {
-  padding: 6% 0;
-  background-color: #0f044c;
-  border-style: solid;
-  border-color: #0f044c;
-  border-radius: 6px;
-  z-index: 1;
-  width: 100%;
-}
-
-.card-body {
-  padding:4% 0;
-  border-style: solid;
-  border-radius: 2px;
-  border-color: #0f044c;
-}
-
-
 .container {
   text-align: center;
   justify-content: center;
@@ -190,6 +157,7 @@ a:hover {
 iframe{
   display:flex;
   margin: auto;
+  padding-top: 15px;
 }
 
 /* Small screen devices  */
@@ -202,10 +170,6 @@ iframe{
     width: 90%;
   }
 
-  .card-group {
-    /* display: flex; */
-    width: 70%;
-  }
   .carousel-inner {
     padding-right: 29%;
   }
